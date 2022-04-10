@@ -17,7 +17,7 @@ public class WebLoginTest extends BaseClass{
 	@Test (priority = 1)
 	public void testLogin() throws IOException
 	{
-		Reports.test = Reports.extent.createTest("testLogin");
+		Reports.test = Reports.extent.createTest("testLogins");
 		try
 		{
 			login.Login(excel.getDataFromCell(loginData, loginSheet, 1, 0), excel.getDataFromCell(loginData, loginSheet, 1, 1));
