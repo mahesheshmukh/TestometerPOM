@@ -32,7 +32,8 @@ public class BaseClass {
 	public static String webURL = PropertyManager.getInstance().getWebURL();
 	public static String browser = 	PropertyManager.getInstance().getBrowser();
 	public static String suite = PropertyManager.getInstance().getSuite();
-
+	String test = "";
+	
 	@BeforeSuite(alwaysRun = true)
 	public void openBrowser()
 	{
